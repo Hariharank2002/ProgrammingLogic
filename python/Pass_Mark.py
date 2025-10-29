@@ -1,7 +1,7 @@
 a=[]
 b = ["Tamil", "English", "Maths", "Science", "Social"]
 for subject in b:
-    mark = int(input(f"Enter Your Mark for {subject}: "))
+    mark = int(input(f"Enter Your Mark for {subject}:"))
     a.append(mark)
 if a[0]>=35:
     print("Tamil: Pass")
